@@ -16,7 +16,7 @@ Follow these steps to set up the FastAPI backend:
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/writestart-backend.git
+   git clone https://github.com/magi8101/writestart-backend.git
    ```
 2. **Navigate to the project directory:**
    ```bash
