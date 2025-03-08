@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: scraper-gemini-api
+    runtime: python
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false  # Set manually in Render dashboard
+    plan: free
+    region: oregon  # Change region as needed
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
