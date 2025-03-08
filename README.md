@@ -1,7 +1,7 @@
 # WriteStart - Backend
 
 🚀 **Welcome to the WriteStart Backend!** 🧐 This is the backend for WriteStart, built using FastAPI for lightning-fast performance and seamless integration with the frontend. It handles user authentication and API endpoints efficiently. Database integration will be added in the future. Pair it with the frontend for the ultimate writing experience! ✨
-![    ](https://ibb.co/k69CjbMs)
+
 ---
 <a href="https://ibb.co/k69CjbMs"><img src="https://i.ibb.co/qFWQKqx3/write-start-netlify-app-Samsung-Galaxy-A51-71.png" alt="write-start-netlify-app-Samsung-Galaxy-A51-71" border="0"></a><br /><a target='_blank' href='https://usefulwebtool.com/'></a><br />
 ---
