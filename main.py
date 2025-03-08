@@ -10,7 +10,7 @@ app = FastAPI()
 # Enable CORS for frontend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[" use * to allow all or provide your frontend link to access backend"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -48,7 +48,7 @@ def scrape_website(url: str):
 def generate_content(prompt: str):
     """Generates content based on a structured prompt."""
     try:
-        model = genai.GenerativeModel("gemini-1.5-pro-latest")
+        model = genai.GenerativeModel("specify-your-api-model")
         response = model.generate_content(prompt)
         if response and hasattr(response, "text"):
             return response.text.strip()
